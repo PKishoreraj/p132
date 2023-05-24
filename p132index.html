@@ -1,0 +1,42 @@
+<html>
+
+<head>
+  <meta charset="UTF-8">
+  <title>Mask indentifier.</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
+
+<script src="https://cdnjs.cloudflare.com/ajax/libs/p5.js/1.0.0/p5.js"></script>
+
+</head>
+
+<body>
+    <div class="container">
+        <center>
+          <div class="col-md-4 col-sm-12 col-xs-12">
+              <label>Webcam View-</label>
+          <div id="camera"></div>
+          <br><br>
+          <button onclick="take_snaption();"class="btn btn-warning">Capture Image</button>
+          </div>
+          <div class="col-md-4 col-sm-12 col-xs-12">
+            <labl>Preditation 1</labl>
+            <p class="emotion_name"id="result_emotion_name"></p>
+            <p class="emoji"id="update_emoji"></p>
+          </div>
+          <div class="col-md-4 col-sm-12 col-xs-12">
+              <label>Snapshot - </label>
+              <div id="result"></div>
+              <br><br>
+              <button onclick="check()"class="btn btn-success">Chaek</button>
+          </div>
+            <br><br>
+          </div>
+        </center>
+      </div>
+    <script src="p132main.js"></script>
+
+</html>
+
